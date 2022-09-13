@@ -41,7 +41,7 @@ export default {
         this.param,
       param: "",
       linkDefault:
-        "paste your api here",
+        "https://api.timezonedb.com/v2.1/get-time-zone?key=E79K61AP9JL8&format=json&by=zone&zone=Asia/Jakarta",
       selected: "",
       products: [
         { id: 1, name: "Asia/Jakarta", show :"WIB" },
@@ -55,7 +55,7 @@ export default {
       
       this.msg = this.selected.text;
       this.linkDefault =
-        "paste your api here" +
+        "https://api.timezonedb.com/v2.1/get-time-zone?key=E79K61AP9JL8&format=json&by=zone&zone=" +
         this.selected.text;
     },
     getTime() {
